@@ -1,0 +1,76 @@
+.controls-wrapper {
+  display: flex;
+  flex-direction: column-reverse;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(10, 10, 10, 0.6);
+  z-index: 10;
+}
+
+.video-controls {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.time-stamp {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.time-stamp p {
+  color: white;
+  font-size: 20px;
+}
+
+.bottom-controls {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.skip-buttons {
+  margin-left: 16px;
+}
+
+.volume-controls {
+  display: flex;
+  justify-content: center;
+}
+
+.speed-button {
+  border: none;
+  padding: 0;
+  background: none;
+  background-color: transparent;
+  color: rgb(185, 180, 180);
+  font-size: large;
+  margin-left: auto;
+}
+
+.speed-button:hover {
+  color: white;
+  cursor: pointer;
+}
+
+.speed-button:focus {
+  outline: none;
+}
+
+.playback-rate {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.playback-rate-buttons {
+  border: none;
+  padding: 5px;
+}
+
+.playback-rate-buttons:focus {
+  outline: none;
+}
